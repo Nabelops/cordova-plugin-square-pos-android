@@ -449,6 +449,9 @@ public class IntentShim extends CordovaPlugin {
             } else if(key.equals("com.squareup.pos.TENDER_TYPES")) {
                 i.putExtra(key, new ArrayList<String>(Arrays.asList(valueStr.split("\\s*,\\s*"))) );
                 Log.d(LOG_TAG, "Added ArrayList<String> to the extras" );
+            } else if(key.equals("com.squareup.pos.AUTO_RETURN_TIMEOUT_MS")) {
+                i.putExtra(key, Long.valueOf(valueStr));
+                Log.d(LOG_TAG, "Added Long" );
             } else {
                 if (value instanceof Boolean) {
                     i.putExtra(key, Boolean.valueOf(valueStr));
