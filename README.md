@@ -28,7 +28,7 @@ An example application is available at https://github.com/darryncampbell/plugin-
 
 ## Installation
 
-    cordova plugin add https://github.com/folio3/cordova-plugin-square-pos-android.git
+    cordova plugin add https://github.com/Nabelops/cordova-plugin-square-pos-android.git
 
 
 ## Supported Platforms
